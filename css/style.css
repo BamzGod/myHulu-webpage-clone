@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 * {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
 html,
 body {
-        font-family: "Rubik", sans-serif;
-        background: black;
-        color: white;
-        line-height: 1.7;
-        overflow-x: hidden;
-      }
+  font-family: "Rubik", sans-serif;
+  background: black;
+  color: white;
+  line-height: 1.7;
+  overflow-x: hidden;
+  }
     
 
       a{
@@ -229,8 +230,7 @@ body {
             rgba(0, 0, 0, 0.6) 4.58%,
             rgba(0, 0, 0, 0) 69.61%
         ),
-        linear-gradient(24.5deg, rgba(0, 0, 0, 0.2) 4.71%, rgba(0, 0, 0, 0)
-        71.49%);
+        linear-gradient(24.5deg, rgba(0, 0, 0, 0.2) 4.71%, rgba(0, 0, 0, 0) 71.49%);
       }
 
       .categories .cover-text {
@@ -319,6 +319,10 @@ body {
 
       .footer {
         background: #ebedf2;
+        color: #333;
+      }
+
+      .footer a {
         color: #333;
       }
 
